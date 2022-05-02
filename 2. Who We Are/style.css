@@ -1,0 +1,812 @@
+body{
+    position: absolute;
+    width: 100%;
+    max-width: max-content;
+    margin-left: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+ background: rgba(242, 92, 84, .5);
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(23, 141, 142, 0.8);
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #178D8e;
+
+}
+
+nav{
+    height: 60px;
+    display: inline-block;
+}
+.utilities{
+    background-color: white;
+    margin: auto;
+}
+
+.becomeAffiliate{
+    color: #F25C54;
+    position: absolute;
+    width: 169px;
+    height: 18px;
+    left: 1243px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.donateUtility{
+    position: absolute;
+    width: 62px;
+    height: 18px;
+    left: 1466px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1B1B1B;
+}
+
+.logIn{
+    position: absolute;
+    width: 51px;
+    height: 18px;
+    left: 1582px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1B1B1B;
+}
+
+.heroSection{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.61) 21.87%, rgba(0, 0, 0, 0.61) 76.56%),
+    url("/2. Who We Are/Images/hero_image.jpg");
+    position: absolute;
+    width: 1920px;
+    height: 546px;
+    left: 0px;
+    top: 60px;
+}
+
+.navBar{
+    position: absolute;
+    height: 91px;
+    background-color: rgba(23, 141, 142, 0.5);
+    width: 1920px;
+    left: 0px;
+    top: 0px;
+    color: white;
+}
+
+.headerLogo{
+    position: absolute;
+    width: 532px;
+    height: 113px;
+    left: 125px;
+    top: -10px;
+}
+
+.navHome{
+    position: absolute;
+    width: 61px;
+    height: 24px;
+    left: 899px;
+    top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+
+.navWho{
+    position: absolute;
+    left: 1040px;
+    right: 12.32%;
+    top: 15px;
+    bottom: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.whoChev{
+    position: absolute;
+    left: 1180px;
+    top: 43px;
+}
+
+.navWhat{
+    position: absolute;
+    left: 1249px;
+    right: 10.02%;
+    top: 15px;
+    bottom: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.whatChev{
+    position: absolute;
+    left: 1423px;
+    top: 43px;
+}
+
+.navResources{
+    position: absolute;
+    width: 178.49px;
+    height: 24px;
+    left: 1493px;
+    top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.resourceChev{
+    position: absolute;
+    left: 1661.09px;
+    top: 43px;
+}
+
+
+.searchIcon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1743px;
+    top: 35px;
+}
+
+
+.heroHeading{
+    position: absolute;
+    width: 819px;
+    height: 73px;
+    left: 551px;
+    top: 342px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    color: white;
+    text-align: center;
+}
+
+.missionHeading{
+    position: absolute;
+    width: 429px;
+    height: 60px;
+    left: 150px;
+    top: 753px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    color: #116A6B;
+}
+
+.missionImage{
+    position: absolute;
+    width: 950px;
+    height: 794px;
+    left: 970px;
+    top: 606px;
+}
+
+.missionParagraph{
+    position: absolute;
+    width: 760px;
+    height: 333px;
+    left: 150px;
+    top: 854px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    letter-spacing: -0.01em;
+    color: #1B1B1B;
+}
+
+.missionButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 48px;
+    padding-top: 16px;
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 150px;
+    top: 1629px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: white;
+    text-align: center;
+    background: #F25C54;
+    box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 25px;
+}
+
+.centerBanner{
+    background-image: linear-gradient(180deg, rgba(242, 92, 84, .95) 50%, rgba(242, 92, 84, .95) 50%), url("/3. Our Affiliates/Images/background_texture.jpg");
+    position: absolute;
+    width: 1920px;
+    height: 536px;
+    left: 0px;
+    top: 1398px;
+}
+
+.bannerText{
+    position: absolute;
+    width: 1509px;
+    height: 230px;
+    left: 206px;
+    top: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 0.02em; 
+    color: #FFFFFF;
+}
+
+.Vision{
+   top: 1933px; 
+}
+
+.visionImage{
+    position: absolute;
+    width: 948px;
+    height: 870px;
+    left: 0px;
+    top: 1933px;
+}
+
+.visionHeading{
+    position: absolute;
+    width: 267px;
+    height: 61px;
+    left: 1031px;
+    top: 2085px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    color: #116A6B;
+}
+
+.visionParagraph1{
+    position: absolute;
+    width: 713px;
+    height: 584px;
+    left: 1033px;
+    top: 2182px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    color: #1B1B1B;
+}
+
+.visionParagraph2{
+        position: absolute;
+        width: 713px;
+        height: 584px;
+        left: 1033px;
+        top: 2426px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 47px;
+        color: #1B1B1B;
+}
+
+.pearlsValues{
+    position: absolute;
+    width: 1920px;
+    height: 1480px;
+    left: 0px;
+    top: 2802px;
+    background: rgba(23, 141, 142, 0.2);
+}
+
+.valuesHeading{
+    position: absolute;
+    width: 703px;
+    height: 73px;
+    left: 153px;
+    top: 148px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    color: #116A6B;
+}
+
+.valuesStatement{
+    position: absolute;
+    width: 1617px;
+    height: 161px;
+    left: 153px;
+    top: 257px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    color: #116A6B;
+}
+
+.protocol{
+    position: absolute;
+    top: 522px;
+    left: 217px;
+    width: 1344px;
+    color: #116A6B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.etiquette{
+    position: absolute;
+    top: 678px;
+    left: 217px;
+    width: 1344px;
+    color: #116A6B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.academics{
+    position: absolute;
+    top: 790px;
+    left: 217px;
+    width: 1344px;
+    color: #116A6B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.resiliency{
+    position: absolute;
+    top: 940px;
+    left: 217px;
+    width: 1344px;
+    color: #116A6B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.leadership{
+    position: absolute;
+    top: 1053px;
+    left: 217px;
+    width: 1344px;
+    color: #116A6B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.service{
+    position: absolute;
+    top: 1203px;
+    left: 217px;
+    width: 1344px;
+    color: #116A6B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.image1{
+    position: absolute;
+    width: 540px;
+    height: 360px;
+    left: 0px;
+    top: 4282px;
+}
+
+.image2{
+    position: absolute;
+    width: 392px;
+    height: 360px;
+    left: 558px;
+    top: 4282px;
+}
+
+.image3{
+    position: absolute;
+    width: 393px;
+    height: 360px;
+    left: 968px;
+    top: 4280px;
+}
+
+.image4{
+    position: absolute;
+    width: 539px;
+    height: 360px;
+    left: 1380px;
+    top: 4282px;
+}
+
+.image5{
+    position: absolute;
+    width: 950px;
+    height: 560px;
+    left: 0px;
+    top: 4662px;     
+}
+
+.image6{
+    position: absolute;
+    width: 392px;
+    height: 560px;
+    left: 968px;
+    top: 4662px;
+}
+
+.image7{
+    position: absolute;
+    width: 540px;
+    height: 940px;
+    left: 1380px;
+    top: 4662px;
+}
+
+.image8{
+    position: absolute;
+    width: 539px;
+    height: 363px;
+    left: 1px;
+    top: 5240px; 
+}
+
+.image9{
+    position: absolute;
+    width: 802px;
+    height: 361px;
+    left: 558px;
+    top: 5242px;
+}
+
+.CTA{
+    position: absolute;
+    width: 1920px;
+    height: 363px;
+    left: 0px;
+    top: 5602px;
+}
+
+.CTA_statement{
+    position: absolute;
+    width: 689px;
+    height: 120px;
+    left: 369px;
+    top: 122px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #F25C54;
+}
+
+.CTA_donate{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 48px;
+    padding-top: 16px;
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 1129px;
+    top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: white;
+    text-align: center;
+    background: #F25C54;
+    box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 25px;
+}
+
+footer{
+    position: absolute;
+    width: 1920px;
+    height: 561px;
+    background: #1B1B1B;
+    left: 0px;
+    top: 5969px;
+}
+
+.footerLogo{
+    position: absolute;
+    left: 148px;
+    top: 96px;
+}
+
+.pearlsAddress{
+    position: absolute;
+    width: 380px;
+    height: 81px;
+    left: 150px;
+    top: 201px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9C9C9C;
+}
+
+.facebook{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    top: 310px;
+}
+
+.twitter{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 180px;
+    top: 310px; 
+}
+
+.insta{
+    position: absolute;
+    width: 20px;
+    height: 22.86px;
+    left: 210px;
+    top: 310px;
+}
+
+.youtube{
+    position: absolute;
+    width: 26px;
+    height: 23.11px;
+    left: 240px;
+    top: 310px;
+}
+
+.company{
+    position: absolute;
+    width: 210px;
+    height: 56px;
+    left: 623px;
+    top: 95px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.contactUs{
+    position: absolute;
+    width: 263px;
+    height: 209px;
+    left: 624px;
+    top: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 43px;
+    color: #9C9C9C;
+}
+
+.BaA{
+    position: absolute;
+    width: 263px;
+    height: 209px;
+    left: 624px;
+    top: 212px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 43px;
+    color: #9C9C9C;
+}
+
+.news{
+    position: absolute;
+    width: 263px;
+    height: 209px;
+    left: 624px;
+    top: 254px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 43px;
+    color: #9C9C9C;
+}
+
+.blog{
+    position: absolute;
+    width: 263px;
+    height: 209px;
+    left: 624px;
+    top: 298px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 43px;
+    color: #9C9C9C;
+}
+
+.goal{
+    position: absolute;
+    width: 210px;
+    height: 56px;
+    left: 1004px;
+    top: 95px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.goalStatement{
+    position: absolute;
+    width: 338px;
+    height: 136px;
+    left: 1006px;
+    top: 152px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #ACACAC;
+}
+
+.footerDonateButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 48px;
+    padding-top: 16px;
+    position: relative;
+    width: 189px;
+    height: 60px;
+    background: #F25C54;
+    box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: white;
+    text-align: center;
+    left: 1004px;
+    top: 326px;
+}
+
+.newsletter{
+    position: absolute;
+    width: 307px;
+    height: 56px;
+    left: 1451px;
+    top: 95px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.formTitle{
+    position: absolute;
+    width: 380px;
+    height: 27px;
+    left: 1451px;
+    top: 187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ACACAC;
+}
+
+.formInputBox{
+    position: absolute;
+    width: 319px;
+    height: 55.33px;
+    left: 1451px;
+    top: 221px;
+    border-radius: 5px;
+}
+
+.subscribeButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 48px;
+    padding-top: 10px;
+    position: absolute;
+    width: 125px;
+    left: 1451px;
+    top: 308px;
+    background: #FFF7E9;
+    box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #1B1B1B;
+}
